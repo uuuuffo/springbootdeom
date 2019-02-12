@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head th:include="include :: header"></head>
+<body class="gray-bg">
+	<div class="wrapper wrapper-content ">
+		<div class="col-sm-12">
+			<div class="ibox">
+				<div class="ibox-body">
+					<div  id="exampleToolbar" role="group" >
+						<button type="button" class="btn btn-primary" onclick="dbBackup()">
+							<i class="" aria-hidden="true"></i>数据库备份
+						</button>
+						<button type="button" class="btn btn-warning" onclick="dbRecover()">
+							<i class="" aria-hidden="true"></i>数据库还原
+						</button>
+					</div>
+					<table id="exampleTable" data-mobile-responsive="true">
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div th:include="include :: footer"></div>
+	<script type="text/javascript" src="/js/appjs/common/generator/show.js"></script>
+</body>
+</html>

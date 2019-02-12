@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>欢迎页</title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+.my-alert {
+	padding: 10px;
+}
+
+.my-alert p {
+	color: #9E9E9E;
+}
+
+.statis-body {
+	margin: 20px 0
+}
+
+.statis .s_title {
+	display: inline-block;
+	width: 48%;
+	text-align: right;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+
+.statis .s_num {
+	display: inline-block;
+	width: 52%;
+	text-align: center;
+	font-size: 30px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.b-l-r {
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+}
+
+.btn-fold img {
+	height: 25px;
+	margin-top: -3px;
+}
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="my-alert">
+			<h3 style="font-weight:bold;">最新统计</h3>
+			<p>本页根据昨日数据来计算，而非实时数据</p>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">昨日核心指标</div>
+			<div class="panel-body statis-body">
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">昨日注册用户</span><span class="s_num num1">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">累计注册用户</span><span class="s_num num2">0</span>
+					</div>
+				</div>
+				<div class="col-md-4 b-l-r">
+					<div class="statis">
+						<span class="s_title">昨日运费订单</span><span class="s_num num3">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">累计运费总额</span><span class="s_num num4">0</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">昨日保险订单</span><span class="s_num num5">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">累计保险总额</span><span class="s_num num6">0</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				7日核心指标<a href="javascript:;" class="pull-right btn-fold"><img alt="" src="img/down.png"></a>
+			</div>
+			<div class="panel-body statis-body" style="display: none">
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">7日注册用户</span><span class="s_num num7-1">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">累计注册用户</span><span class="s_num num7-2">0</span>
+					</div>
+				</div>
+				<div class="col-md-4 b-l-r">
+					<div class="statis">
+						<span class="s_title">7日运费订单</span><span class="s_num num7-3">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">7日运费总额</span><span class="s_num num7-4">0</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">7日保险订单</span><span class="s_num num7-5">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">7日保险总额</span><span class="s_num num7-6">0</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				15日核心指标<a href="javascript:;" class="pull-right btn-fold"><img alt="" src="img/down.png"></a>
+			</div>
+			<div class="panel-body statis-body" style="display: none">
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">15日注册用户</span><span class="s_num num15-1">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">累计注册用户</span><span class="s_num num15-2">0</span>
+					</div>
+				</div>
+				<div class="col-md-4 b-l-r">
+					<div class="statis">
+						<span class="s_title">15日运费订单</span><span class="s_num num15-3">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">15日运费总额</span><span class="s_num num15-4">0</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">15日保险订单</span><span class="s_num num15-5">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">15日保险总额</span><span class="s_num num15-6">0</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				30日核心指标<a href="javascript:;" class="pull-right btn-fold"><img alt="" src="img/down.png"></a>
+			</div>
+			<div class="panel-body statis-body" style="display: none">
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">30日注册用户</span><span class="s_num num30-1">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">累计注册用户</span><span class="s_num num30-2">0</span>
+					</div>
+				</div>
+				<div class="col-md-4 b-l-r">
+					<div class="statis">
+						<span class="s_title">30日运费订单</span><span class="s_num num30-3">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">30日运费总额</span><span class="s_num num30-4">0</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="statis">
+						<span class="s_title">30日保险订单</span><span class="s_num num30-5">0</span>
+					</div>
+					<div class="statis">
+						<span class="s_title">30日保险总额</span><span class="s_num num30-6">0</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script src="/js/jquery.min.js?v=2.1.4"></script>
+<script type="text/javascript">
+	var s;
+	$(function() {
+		var interval = setInterval(loadNum, 50);
+		function loadNum() {
+			$(".num1").html(parseInt(10 * Math.random() * 7))
+			$(".num2").html(parseInt(10 * Math.random() * 11))
+			$(".num3").html(parseInt(10 * Math.random() * 8))
+			$(".num4").html(parseInt(10 * Math.random() * 12))
+			$(".num5").html(parseInt(10 * Math.random() * 9))
+			$(".num6").html(parseInt(10 * Math.random() * 13))
+
+		}
+		$(".btn-fold").click(function() {
+
+			if ($(this).find("img").attr("src") == "img/up.png") {
+				$(this).parent().next().hide();
+				$(this).find("img").attr("src", "img/down.png")
+			} else {
+				$(this).parent().next().show();
+				$(this).find("img").attr("src", "img/up.png")
+			}
+		})
+		$.ajax({
+			url : '/hongniu/statistics/count',
+			type : "get",
+
+			success : function(r) {
+				if (r.code == 0) {
+
+					setTimeout(function() {
+						clearInterval(interval)
+						if (r.orderMoney == null) {
+							r.orderMoney = 0
+						}
+						if (r.PolicyMoney == null) {
+							r.PolicyMoney = 0
+						}
+						$(".num1").html(parseInt(r.lastUsers))
+						$(".num2").html(parseInt(r.allusers))
+						$(".num3").html(parseInt(r.ordercount))
+						$(".num4").html(parseInt(r.orderMoney))
+						$(".num5").html(parseInt(r.lastPolicy))
+						$(".num6").html(parseInt(r.PolicyMoney))
+					}, 1000)
+				} else {
+
+				}
+			}
+		});
+		$.ajax({
+			url : '/hongniu/statistics/statisticsdate',
+			type : "get",
+			data : {
+				"date" : 7
+			},
+			success : function(r) {
+				if (r.code == 0) {
+						if (r.orderMoney == null) {
+							r.orderMoney = 0
+						}
+						if (r.PolicyMoney == null) {
+							r.PolicyMoney = 0
+						}
+						$(".num7-1").html(parseInt(r.lastUsers))
+						$(".num7-2").html(parseInt(r.allusers))
+						$(".num7-3").html(parseInt(r.ordercount))
+						$(".num7-4").html(parseInt(r.orderMoney))
+						$(".num7-5").html(parseInt(r.lastPolicy))
+						$(".num7-6").html(parseInt(r.PolicyMoney))
+				} else {
+
+				}
+			}
+		});
+		$.ajax({
+			url : '/hongniu/statistics/statisticsdate',
+			type : "get",
+			data : {
+				"date" : 15
+			},
+			success : function(r) {
+				if (r.code == 0) {
+						if (r.orderMoney == null) {
+							r.orderMoney = 0
+						}
+						if (r.PolicyMoney == null) {
+							r.PolicyMoney = 0
+						}
+						$(".num15-1").html(parseInt(r.lastUsers))
+						$(".num15-2").html(parseInt(r.allusers))
+						$(".num15-3").html(parseInt(r.ordercount))
+						$(".num15-4").html(parseInt(r.orderMoney))
+						$(".num15-5").html(parseInt(r.lastPolicy))
+						$(".num15-6").html(parseInt(r.PolicyMoney))
+				} else {
+
+				}
+			}
+		});
+		$.ajax({
+			url : '/hongniu/statistics/statisticsdate',
+			type : "get",
+			data : {
+				"date" : 30
+			},
+			success : function(r) {
+				if (r.code == 0) {
+						if (r.orderMoney == null) {
+							r.orderMoney = 0
+						}
+						if (r.PolicyMoney == null) {
+							r.PolicyMoney = 0
+						}
+						$(".num30-1").html(parseInt(r.lastUsers))
+						$(".num30-2").html(parseInt(r.allusers))
+						$(".num30-3").html(parseInt(r.ordercount))
+						$(".num30-4").html(parseInt(r.orderMoney))
+						$(".num30-5").html(parseInt(r.lastPolicy))
+						$(".num30-6").html(parseInt(r.PolicyMoney))
+				} else {
+
+				}
+			}
+		});
+
+	})
+</script>
+</html>
